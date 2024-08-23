@@ -19,14 +19,11 @@
       ul {
         list-style-type: none;
       }
-      a {
-        text-decoration: none;
-      }
     </style>
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="nav">
           <a href="./index.html" class="logo"
             >Web<span class="logo-text">Studio</span></a
@@ -64,8 +61,8 @@
         </button>
       </div>
       <div>
-        <div class="mobile-menu is-open">
-          <div class="mobile-menu-thumb container">
+        <div class="mobile-menu">
+          <div class="mobile-menu-container container">
             <button class="mobile-menu-close-btn">
               <svg width="8" height="8" class="">
                 <use href="./images/icons.svg#icon-menu-close"></use>
@@ -84,25 +81,71 @@
                 </li>
               </ul>
             </nav>
-            <address></address>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+            <address class="mobile-contacts">
+              <ul class="mobile-contacts-list">
+                <li class="mobile-menu-item">
+                  <a class="mobile-menu-link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="mobile-menu-item">
+                  <a class="mobile-menu-link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="menu-mobile-social-list">
+              <li class="menu-mobile-social-item">
+                <a
+                  href="https://www.instagram.com/"
+                  class="menu-mobile-social-link"
+                >
+                  <svg width="24" height="24" class="">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-mobile-social-item">
+                <a href="https://x.com/" class="menu-mobile-social-link">
+                  <svg width="24" height="24" class="">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-mobile-social-item">
+                <a
+                  href="https://www.facebook.com/"
+                  class="menu-mobile-social-link"
+                >
+                  <svg width="24" height="24" class="">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-mobile-social-item">
+                <a
+                  href="https://www.linkedin.com/"
+                  class="menu-mobile-social-link"
+                >
+                  <svg width="24" height="24" class="">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section class="hero hidden">
-        <div class="container">
+      <section class="hero">
+        <div class="container hero-container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
           <button class="custom-button" type="button">Order Service</button>
         </div>
       </section>
-      <section class="features hidden">
+      <section class="features">
         <div class="container">
           <h2 class="visually-hidden">About Us</h2>
           <ul class="ul-features">
@@ -112,7 +155,8 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="features-list">Strategy</h3>
+
+              <h3 class="features-list-title">Strategy</h3>
               <p class="features-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -124,7 +168,8 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="features-list">Punctuality</h3>
+
+              <h3 class="features-list-title">Punctuality</h3>
               <p class="features-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -136,7 +181,8 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="features-list">Diligence</h3>
+
+              <h3 class="features-list-title">Diligence</h3>
               <p class="features-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -148,7 +194,8 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="features-list">Technologies</h3>
+
+              <h3 class="features-list-title">Technologies</h3>
               <p class="features-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -157,15 +204,16 @@
           </ul>
         </div>
       </section>
-      <section class="team-section hidden">
+      <section class="team-section">
         <div class="container">
           <h2 class="team-header">Our Team</h2>
           <ul class="ul-team">
             <li class="team">
               <img
-                src="./images/MarkGuerrero.jpg"
+                class="team-img"
+                src="./images/MarkGuerrero2.jpg"
                 alt="Mark Guerrero"
-                width="264"
+                min-width="264"
                 height="260"
               />
               <div class="team-desc">
@@ -205,9 +253,10 @@
             </li>
             <li class="team">
               <img
-                src="./images/TomFord.jpg"
+                class="team-img"
+                src="./images/TomFord2.jpg"
                 alt="Tom Ford"
-                width="264"
+                min-width="264"
                 height="260"
               />
               <div class="team-desc">
@@ -247,9 +296,10 @@
             </li>
             <li class="team">
               <img
-                src="./images/CamilaGarcia.jpg"
+                class="team-img"
+                src="./images/CamilaGarcia2.jpg"
                 alt="Camila Garcia"
-                width="264"
+                min-width="264"
                 height="260"
               />
               <div class="team-desc">
@@ -289,9 +339,10 @@
             </li>
             <li class="team">
               <img
-                src="./images/DanielWilson.jpg"
+                class="team-img"
+                src="./images/DanielWilson2.jpg"
                 alt="Daniel Wilson"
-                width="264"
+                min-width="264"
                 height="260"
               />
               <div class="team-desc">
