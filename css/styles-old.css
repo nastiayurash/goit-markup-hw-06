@@ -16,60 +16,6 @@
   background-clip: padding-box, padding-box;
 }
 
-.site-footer {
-  padding-top: 100px;
-  display: block;
-  padding-bottom: 100px;
-}
-
-.footer-icons-list {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 16px;
-  width: 208px;
-  height: 40px;
-}
-.footer-div {
-  display: flex;
-  align-items: baseline;
-  margin: 0 auto;
-}
-.footer-social {
-  padding-top: 100px;
-  margin-left: 120px;
-}
-
-.form-footer {
-  margin-left: 80px;
-}
-.form-subscribe {
-  /* display: flex; */
-}
-
-.email-input {
-  width: 264px;
-}
-
-.subscribe-btn {
-  min-width: 165px;
-  display: flex;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  cursor: pointer;
-  background-color: #4d5ae5;
-  border: none;
-  border-radius: 4px;
-}
-
 .modal-overlay {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;

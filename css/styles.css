@@ -345,7 +345,7 @@ header {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office1.jpg);
+    url(../images/Dark-bg-mob.jpg);
 
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
@@ -393,6 +393,11 @@ header {
     padding-right: 136px;
     padding-left: 136px;
     padding-bottom: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab.jpg);
   }
   .hero-text {
     font-size: 56px;
@@ -403,6 +408,14 @@ header {
   }
 }
 @media screen and (min-width: 1158px) {
+  .hero {
+    padding: 188px 472px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office1.jpg);
+  }
   .hero-text {
     margin-bottom: 48px;
   }
