@@ -345,7 +345,7 @@ header {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/Dark-bg-mob.jpg);
+    url(../images/Dark-bg-mob1.jpg);
 
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
@@ -397,7 +397,7 @@ header {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg-tab.jpg);
+      url(../images/Dark-bg-tab1.jpg);
   }
   .hero-text {
     max-width: 496px;
@@ -414,7 +414,7 @@ header {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office1.png);
+      url(../images/Dark-bg-main1.jpg);
   }
   .hero-text {
     width: 496px;
