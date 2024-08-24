@@ -352,6 +352,18 @@ header {
   background-position: center, center;
   background-clip: padding-box, padding-box;
 }
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob2.jpg);
+  }
+}
+
 .hero-text {
   font-weight: 700;
   line-height: 1.11;
@@ -399,6 +411,17 @@ header {
       ),
       url(../images/Dark-bg-tab1.jpg);
   }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab2.jpg);
+    }
+  }
   .hero-text {
     max-width: 496px;
     font-size: 56px;
@@ -410,11 +433,25 @@ header {
 }
 @media screen and (min-width: 1158px) {
   .hero {
+    padding-top: 188px;
+
+    padding-bottom: 188px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Dark-bg-main1.jpg);
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-main2.jpg);
+    }
   }
   .hero-text {
     width: 496px;
