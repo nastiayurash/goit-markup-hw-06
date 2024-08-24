@@ -400,23 +400,24 @@ header {
       url(../images/Dark-bg-tab.jpg);
   }
   .hero-text {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
-    max-width: 496px;
+    width: 496px;
     margin-bottom: 36px;
     text-align: center;
   }
 }
 @media screen and (min-width: 1158px) {
   .hero {
-    padding: 188px 472px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office1.jpg);
+      url(../images/people-office1.png);
   }
   .hero-text {
+    width: 496px;
     margin-bottom: 48px;
   }
 }
@@ -895,6 +896,7 @@ input[placeholder="E-mail"] {
 
   .footer-wrap {
     flex-direction: row;
+    gap: 0;
   }
   .site-footer {
     margin-right: 120px;
